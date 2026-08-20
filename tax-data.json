@@ -1,0 +1,2570 @@
+{
+  "version": "2026.2",
+  "taxYear": 2026,
+  "updated": "2026-08-16",
+  "comment": "Брекеты и вычеты: Tax Foundation, State Individual Income Tax Rates and Brackets, as of January 1, 2026. Личные exemption-вычеты свёрнуты в deduction; exemption-кредиты — в credit. Взносы: официальные объявления штатов на 2026. Все числа строками — Decimal не должен проходить через Double.",
+  "states": {
+    "AL": {
+      "name": "Alabama",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "4500",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.02"
+            },
+            {
+              "floor": "500",
+              "rate": "0.04"
+            },
+            {
+              "floor": "3000",
+              "rate": "0.05"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "11500",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.02"
+            },
+            {
+              "floor": "1000",
+              "rate": "0.04"
+            },
+            {
+              "floor": "6000",
+              "rate": "0.05"
+            }
+          ]
+        }
+      },
+      "contributions": [],
+      "deductsFederalWithholding": true
+    },
+    "AK": {
+      "name": "Alaska",
+      "incomeTax": {
+        "type": "none"
+      },
+      "contributions": [
+        {
+          "name": "AK SUI",
+          "rate": "0.005",
+          "annualWageBase": "54200"
+        }
+      ]
+    },
+    "AZ": {
+      "name": "Arizona",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "0",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.02"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "0",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.02"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "AR": {
+      "name": "Arkansas",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "2470",
+          "credit": "29",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0",
+              "base": "0"
+            },
+            {
+              "floor": "5600",
+              "rate": "0.02",
+              "base": "0.02"
+            },
+            {
+              "floor": "11200",
+              "rate": "0.03",
+              "base": "112.03"
+            },
+            {
+              "floor": "16000",
+              "rate": "0.034",
+              "base": "256.03"
+            },
+            {
+              "floor": "26400",
+              "rate": "0.037",
+              "base": "609.64"
+            },
+            {
+              "floor": "94701",
+              "rate": "0.037",
+              "base": "3134.037"
+            },
+            {
+              "floor": "94801",
+              "rate": "0.037",
+              "base": "3147.737"
+            },
+            {
+              "floor": "94901",
+              "rate": "0.037",
+              "base": "3161.437"
+            },
+            {
+              "floor": "95001",
+              "rate": "0.037",
+              "base": "3175.137"
+            },
+            {
+              "floor": "95101",
+              "rate": "0.037",
+              "base": "3188.837"
+            },
+            {
+              "floor": "95201",
+              "rate": "0.037",
+              "base": "3202.537"
+            },
+            {
+              "floor": "95301",
+              "rate": "0.037",
+              "base": "3216.237"
+            },
+            {
+              "floor": "95401",
+              "rate": "0.037",
+              "base": "3229.937"
+            },
+            {
+              "floor": "95501",
+              "rate": "0.037",
+              "base": "3243.637"
+            },
+            {
+              "floor": "95601",
+              "rate": "0.037",
+              "base": "3257.337"
+            },
+            {
+              "floor": "95701",
+              "rate": "0.037",
+              "base": "3271.037"
+            },
+            {
+              "floor": "95801",
+              "rate": "0.037",
+              "base": "3284.737"
+            },
+            {
+              "floor": "95901",
+              "rate": "0.037",
+              "base": "3298.437"
+            },
+            {
+              "floor": "96001",
+              "rate": "0.037",
+              "base": "3312.137"
+            },
+            {
+              "floor": "96101",
+              "rate": "0.037",
+              "base": "3325.837"
+            },
+            {
+              "floor": "96201",
+              "rate": "0.037",
+              "base": "3339.537"
+            },
+            {
+              "floor": "96301",
+              "rate": "0.037",
+              "base": "3353.237"
+            },
+            {
+              "floor": "96401",
+              "rate": "0.037",
+              "base": "3366.937"
+            },
+            {
+              "floor": "96501",
+              "rate": "0.037",
+              "base": "3380.637"
+            },
+            {
+              "floor": "96601",
+              "rate": "0.037",
+              "base": "3394.337"
+            },
+            {
+              "floor": "96701",
+              "rate": "0.037",
+              "base": "3408.037"
+            },
+            {
+              "floor": "96801",
+              "rate": "0.037",
+              "base": "3421.737"
+            },
+            {
+              "floor": "96901",
+              "rate": "0.037",
+              "base": "3435.437"
+            },
+            {
+              "floor": "97001",
+              "rate": "0.037",
+              "base": "3449.137"
+            },
+            {
+              "floor": "97101",
+              "rate": "0.037",
+              "base": "3462.837"
+            },
+            {
+              "floor": "97201",
+              "rate": "0.037",
+              "base": "3476.537"
+            },
+            {
+              "floor": "97301",
+              "rate": "0.037",
+              "base": "3490.237"
+            },
+            {
+              "floor": "97401",
+              "rate": "0.037",
+              "base": "3503.937"
+            },
+            {
+              "floor": "97501",
+              "rate": "0.037",
+              "base": "3517.637"
+            },
+            {
+              "floor": "97601",
+              "rate": "0.037",
+              "base": "3531.337"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "2470",
+          "credit": "58",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0",
+              "base": "0"
+            },
+            {
+              "floor": "5600",
+              "rate": "0.02",
+              "base": "0.02"
+            },
+            {
+              "floor": "11200",
+              "rate": "0.03",
+              "base": "112.03"
+            },
+            {
+              "floor": "16000",
+              "rate": "0.034",
+              "base": "256.03"
+            },
+            {
+              "floor": "26400",
+              "rate": "0.037",
+              "base": "609.64"
+            },
+            {
+              "floor": "94701",
+              "rate": "0.037",
+              "base": "3134.037"
+            },
+            {
+              "floor": "94801",
+              "rate": "0.037",
+              "base": "3147.737"
+            },
+            {
+              "floor": "94901",
+              "rate": "0.037",
+              "base": "3161.437"
+            },
+            {
+              "floor": "95001",
+              "rate": "0.037",
+              "base": "3175.137"
+            },
+            {
+              "floor": "95101",
+              "rate": "0.037",
+              "base": "3188.837"
+            },
+            {
+              "floor": "95201",
+              "rate": "0.037",
+              "base": "3202.537"
+            },
+            {
+              "floor": "95301",
+              "rate": "0.037",
+              "base": "3216.237"
+            },
+            {
+              "floor": "95401",
+              "rate": "0.037",
+              "base": "3229.937"
+            },
+            {
+              "floor": "95501",
+              "rate": "0.037",
+              "base": "3243.637"
+            },
+            {
+              "floor": "95601",
+              "rate": "0.037",
+              "base": "3257.337"
+            },
+            {
+              "floor": "95701",
+              "rate": "0.037",
+              "base": "3271.037"
+            },
+            {
+              "floor": "95801",
+              "rate": "0.037",
+              "base": "3284.737"
+            },
+            {
+              "floor": "95901",
+              "rate": "0.037",
+              "base": "3298.437"
+            },
+            {
+              "floor": "96001",
+              "rate": "0.037",
+              "base": "3312.137"
+            },
+            {
+              "floor": "96101",
+              "rate": "0.037",
+              "base": "3325.837"
+            },
+            {
+              "floor": "96201",
+              "rate": "0.037",
+              "base": "3339.537"
+            },
+            {
+              "floor": "96301",
+              "rate": "0.037",
+              "base": "3353.237"
+            },
+            {
+              "floor": "96401",
+              "rate": "0.037",
+              "base": "3366.937"
+            },
+            {
+              "floor": "96501",
+              "rate": "0.037",
+              "base": "3380.637"
+            },
+            {
+              "floor": "96601",
+              "rate": "0.037",
+              "base": "3394.337"
+            },
+            {
+              "floor": "96701",
+              "rate": "0.037",
+              "base": "3408.037"
+            },
+            {
+              "floor": "96801",
+              "rate": "0.037",
+              "base": "3421.737"
+            },
+            {
+              "floor": "96901",
+              "rate": "0.037",
+              "base": "3435.437"
+            },
+            {
+              "floor": "97001",
+              "rate": "0.037",
+              "base": "3449.137"
+            },
+            {
+              "floor": "97101",
+              "rate": "0.037",
+              "base": "3462.837"
+            },
+            {
+              "floor": "97201",
+              "rate": "0.037",
+              "base": "3476.537"
+            },
+            {
+              "floor": "97301",
+              "rate": "0.037",
+              "base": "3490.237"
+            },
+            {
+              "floor": "97401",
+              "rate": "0.037",
+              "base": "3503.937"
+            },
+            {
+              "floor": "97501",
+              "rate": "0.037",
+              "base": "3517.637"
+            },
+            {
+              "floor": "97601",
+              "rate": "0.037",
+              "base": "3531.337"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "CA": {
+      "name": "California",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "5540",
+          "credit": "153",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.01"
+            },
+            {
+              "floor": "11079",
+              "rate": "0.02"
+            },
+            {
+              "floor": "26264",
+              "rate": "0.04"
+            },
+            {
+              "floor": "41452",
+              "rate": "0.06"
+            },
+            {
+              "floor": "57542",
+              "rate": "0.08"
+            },
+            {
+              "floor": "72724",
+              "rate": "0.093"
+            },
+            {
+              "floor": "371479",
+              "rate": "0.103"
+            },
+            {
+              "floor": "445771",
+              "rate": "0.113"
+            },
+            {
+              "floor": "742953",
+              "rate": "0.123"
+            },
+            {
+              "floor": "1000000",
+              "rate": "0.133"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "11080",
+          "credit": "306",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.01"
+            },
+            {
+              "floor": "22158",
+              "rate": "0.02"
+            },
+            {
+              "floor": "52528",
+              "rate": "0.04"
+            },
+            {
+              "floor": "82904",
+              "rate": "0.06"
+            },
+            {
+              "floor": "115084",
+              "rate": "0.08"
+            },
+            {
+              "floor": "145448",
+              "rate": "0.093"
+            },
+            {
+              "floor": "742958",
+              "rate": "0.103"
+            },
+            {
+              "floor": "891542",
+              "rate": "0.113"
+            },
+            {
+              "floor": "1000000",
+              "rate": "0.123"
+            },
+            {
+              "floor": "1485906",
+              "rate": "0.133"
+            }
+          ]
+        }
+      },
+      "contributions": [
+        {
+          "name": "CA SDI",
+          "rate": "0.013"
+        }
+      ]
+    },
+    "CO": {
+      "name": "Colorado",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "16100",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.044"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "32200",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.044"
+            }
+          ]
+        }
+      },
+      "contributions": [
+        {
+          "name": "CO FAMLI",
+          "rate": "0.0044",
+          "annualWageBase": "184500"
+        }
+      ]
+    },
+    "CT": {
+      "name": "Connecticut",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "15000",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.02"
+            },
+            {
+              "floor": "10000",
+              "rate": "0.045"
+            },
+            {
+              "floor": "50000",
+              "rate": "0.055"
+            },
+            {
+              "floor": "100000",
+              "rate": "0.06"
+            },
+            {
+              "floor": "200000",
+              "rate": "0.065"
+            },
+            {
+              "floor": "250000",
+              "rate": "0.069"
+            },
+            {
+              "floor": "500000",
+              "rate": "0.0699"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "24000",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.02"
+            },
+            {
+              "floor": "20000",
+              "rate": "0.045"
+            },
+            {
+              "floor": "100000",
+              "rate": "0.055"
+            },
+            {
+              "floor": "200000",
+              "rate": "0.06"
+            },
+            {
+              "floor": "400000",
+              "rate": "0.065"
+            },
+            {
+              "floor": "500000",
+              "rate": "0.069"
+            },
+            {
+              "floor": "1000000",
+              "rate": "0.0699"
+            }
+          ]
+        }
+      },
+      "contributions": [
+        {
+          "name": "CT Paid Leave",
+          "rate": "0.005",
+          "annualWageBase": "184500"
+        }
+      ]
+    },
+    "DE": {
+      "name": "Delaware",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "3250",
+          "credit": "110",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0"
+            },
+            {
+              "floor": "2000",
+              "rate": "0.022"
+            },
+            {
+              "floor": "5000",
+              "rate": "0.039"
+            },
+            {
+              "floor": "10000",
+              "rate": "0.048"
+            },
+            {
+              "floor": "20000",
+              "rate": "0.052"
+            },
+            {
+              "floor": "25000",
+              "rate": "0.0555"
+            },
+            {
+              "floor": "60000",
+              "rate": "0.066"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "6500",
+          "credit": "220",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0"
+            },
+            {
+              "floor": "2000",
+              "rate": "0.022"
+            },
+            {
+              "floor": "5000",
+              "rate": "0.039"
+            },
+            {
+              "floor": "10000",
+              "rate": "0.048"
+            },
+            {
+              "floor": "20000",
+              "rate": "0.052"
+            },
+            {
+              "floor": "25000",
+              "rate": "0.0555"
+            },
+            {
+              "floor": "60000",
+              "rate": "0.066"
+            }
+          ]
+        }
+      },
+      "contributions": [
+        {
+          "name": "DE Paid Leave",
+          "rate": "0.004",
+          "annualWageBase": "184500"
+        }
+      ]
+    },
+    "DC": {
+      "name": "District of Columbia",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "16100",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.04"
+            },
+            {
+              "floor": "10000",
+              "rate": "0.06"
+            },
+            {
+              "floor": "40000",
+              "rate": "0.065"
+            },
+            {
+              "floor": "60000",
+              "rate": "0.085"
+            },
+            {
+              "floor": "250000",
+              "rate": "0.0925"
+            },
+            {
+              "floor": "500000",
+              "rate": "0.0975"
+            },
+            {
+              "floor": "1000000",
+              "rate": "0.1075"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "32200",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.04"
+            },
+            {
+              "floor": "10000",
+              "rate": "0.06"
+            },
+            {
+              "floor": "40000",
+              "rate": "0.065"
+            },
+            {
+              "floor": "60000",
+              "rate": "0.085"
+            },
+            {
+              "floor": "250000",
+              "rate": "0.0925"
+            },
+            {
+              "floor": "500000",
+              "rate": "0.0975"
+            },
+            {
+              "floor": "1000000",
+              "rate": "0.1075"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "FL": {
+      "name": "Florida",
+      "incomeTax": {
+        "type": "none"
+      },
+      "contributions": []
+    },
+    "GA": {
+      "name": "Georgia",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "12000",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0519"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "24000",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0519"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "HI": {
+      "name": "Hawaii",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "1144",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.014"
+            },
+            {
+              "floor": "9600",
+              "rate": "0.032"
+            },
+            {
+              "floor": "14400",
+              "rate": "0.055"
+            },
+            {
+              "floor": "19200",
+              "rate": "0.064"
+            },
+            {
+              "floor": "24000",
+              "rate": "0.068"
+            },
+            {
+              "floor": "36000",
+              "rate": "0.072"
+            },
+            {
+              "floor": "48000",
+              "rate": "0.076"
+            },
+            {
+              "floor": "125000",
+              "rate": "0.079"
+            },
+            {
+              "floor": "175000",
+              "rate": "0.0825"
+            },
+            {
+              "floor": "225000",
+              "rate": "0.09"
+            },
+            {
+              "floor": "275000",
+              "rate": "0.10"
+            },
+            {
+              "floor": "325000",
+              "rate": "0.11"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "2288",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.014"
+            },
+            {
+              "floor": "19200",
+              "rate": "0.032"
+            },
+            {
+              "floor": "28800",
+              "rate": "0.055"
+            },
+            {
+              "floor": "38400",
+              "rate": "0.064"
+            },
+            {
+              "floor": "48000",
+              "rate": "0.068"
+            },
+            {
+              "floor": "72000",
+              "rate": "0.072"
+            },
+            {
+              "floor": "96000",
+              "rate": "0.076"
+            },
+            {
+              "floor": "250000",
+              "rate": "0.079"
+            },
+            {
+              "floor": "350000",
+              "rate": "0.0825"
+            },
+            {
+              "floor": "450000",
+              "rate": "0.09"
+            },
+            {
+              "floor": "550000",
+              "rate": "0.10"
+            },
+            {
+              "floor": "650000",
+              "rate": "0.11"
+            }
+          ]
+        }
+      },
+      "contributions": [
+        {
+          "name": "HI TDI",
+          "rate": "0.005",
+          "weeklyMax": "7.50"
+        }
+      ]
+    },
+    "ID": {
+      "name": "Idaho",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "16100",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0"
+            },
+            {
+              "floor": "4811",
+              "rate": "0.053"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "32200",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0"
+            },
+            {
+              "floor": "9622",
+              "rate": "0.053"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "IL": {
+      "name": "Illinois",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "2925",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0495"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "5850",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0495"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "IN": {
+      "name": "Indiana",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "1000",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0295"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "2000",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0295"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "IA": {
+      "name": "Iowa",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "16100",
+          "credit": "40",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.038"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "32200",
+          "credit": "80",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.038"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "KS": {
+      "name": "Kansas",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "12765",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.052"
+            },
+            {
+              "floor": "23000",
+              "rate": "0.0558"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "26560",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.052"
+            },
+            {
+              "floor": "46000",
+              "rate": "0.0558"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "KY": {
+      "name": "Kentucky",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "3360",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.035"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "3360",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.035"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "LA": {
+      "name": "Louisiana",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "12875",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.03"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "25750",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.03"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "ME": {
+      "name": "Maine",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "13650",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.058"
+            },
+            {
+              "floor": "27399",
+              "rate": "0.0675"
+            },
+            {
+              "floor": "64849",
+              "rate": "0.0715"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "27300",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.058"
+            },
+            {
+              "floor": "54849",
+              "rate": "0.0675"
+            },
+            {
+              "floor": "129749",
+              "rate": "0.0715"
+            }
+          ]
+        }
+      },
+      "contributions": [
+        {
+          "name": "ME PFML",
+          "rate": "0.005",
+          "annualWageBase": "184500"
+        }
+      ]
+    },
+    "MD": {
+      "name": "Maryland",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "6000",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.02"
+            },
+            {
+              "floor": "1000",
+              "rate": "0.03"
+            },
+            {
+              "floor": "2000",
+              "rate": "0.04"
+            },
+            {
+              "floor": "3000",
+              "rate": "0.0475"
+            },
+            {
+              "floor": "100000",
+              "rate": "0.05"
+            },
+            {
+              "floor": "125000",
+              "rate": "0.0525"
+            },
+            {
+              "floor": "150000",
+              "rate": "0.055"
+            },
+            {
+              "floor": "250000",
+              "rate": "0.0575"
+            },
+            {
+              "floor": "500000",
+              "rate": "0.0625"
+            },
+            {
+              "floor": "1000000",
+              "rate": "0.065"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "9200",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.02"
+            },
+            {
+              "floor": "1000",
+              "rate": "0.03"
+            },
+            {
+              "floor": "2000",
+              "rate": "0.04"
+            },
+            {
+              "floor": "3000",
+              "rate": "0.0475"
+            },
+            {
+              "floor": "150000",
+              "rate": "0.05"
+            },
+            {
+              "floor": "175000",
+              "rate": "0.0525"
+            },
+            {
+              "floor": "225000",
+              "rate": "0.055"
+            },
+            {
+              "floor": "300000",
+              "rate": "0.0575"
+            },
+            {
+              "floor": "600000",
+              "rate": "0.0625"
+            },
+            {
+              "floor": "1200000",
+              "rate": "0.065"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "MA": {
+      "name": "Massachusetts",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "4400",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.05"
+            },
+            {
+              "floor": "1083150",
+              "rate": "0.09"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "8800",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.05"
+            },
+            {
+              "floor": "1083150",
+              "rate": "0.09"
+            }
+          ]
+        }
+      },
+      "contributions": [
+        {
+          "name": "MA PFML",
+          "rate": "0.0046",
+          "annualWageBase": "184500"
+        }
+      ]
+    },
+    "MI": {
+      "name": "Michigan",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "5900",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0425"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "11800",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0425"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "MN": {
+      "name": "Minnesota",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "15300",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0535"
+            },
+            {
+              "floor": "33310",
+              "rate": "0.068"
+            },
+            {
+              "floor": "109430",
+              "rate": "0.0785"
+            },
+            {
+              "floor": "203150",
+              "rate": "0.0985"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "30600",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0535"
+            },
+            {
+              "floor": "48700",
+              "rate": "0.068"
+            },
+            {
+              "floor": "193480",
+              "rate": "0.0785"
+            },
+            {
+              "floor": "337930",
+              "rate": "0.0985"
+            }
+          ]
+        }
+      },
+      "contributions": [
+        {
+          "name": "MN Paid Leave",
+          "rate": "0.0044",
+          "annualWageBase": "184500"
+        }
+      ]
+    },
+    "MS": {
+      "name": "Mississippi",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "8300",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0"
+            },
+            {
+              "floor": "10000",
+              "rate": "0.04"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "16600",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0"
+            },
+            {
+              "floor": "10000",
+              "rate": "0.04"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "MO": {
+      "name": "Missouri",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "16100",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0"
+            },
+            {
+              "floor": "1348",
+              "rate": "0.02"
+            },
+            {
+              "floor": "2696",
+              "rate": "0.025"
+            },
+            {
+              "floor": "4044",
+              "rate": "0.03"
+            },
+            {
+              "floor": "5392",
+              "rate": "0.035"
+            },
+            {
+              "floor": "6740",
+              "rate": "0.04"
+            },
+            {
+              "floor": "8088",
+              "rate": "0.045"
+            },
+            {
+              "floor": "9436",
+              "rate": "0.047"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "32200",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0"
+            },
+            {
+              "floor": "1348",
+              "rate": "0.02"
+            },
+            {
+              "floor": "2696",
+              "rate": "0.025"
+            },
+            {
+              "floor": "4044",
+              "rate": "0.03"
+            },
+            {
+              "floor": "5392",
+              "rate": "0.035"
+            },
+            {
+              "floor": "6740",
+              "rate": "0.04"
+            },
+            {
+              "floor": "8088",
+              "rate": "0.045"
+            },
+            {
+              "floor": "9436",
+              "rate": "0.047"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "MT": {
+      "name": "Montana",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "16100",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.047"
+            },
+            {
+              "floor": "47500",
+              "rate": "0.0565"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "32200",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.047"
+            },
+            {
+              "floor": "95000",
+              "rate": "0.0565"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "NE": {
+      "name": "Nebraska",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "8850",
+          "credit": "176",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0246"
+            },
+            {
+              "floor": "4130",
+              "rate": "0.0351"
+            },
+            {
+              "floor": "24760",
+              "rate": "0.0455"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "17700",
+          "credit": "352",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0246"
+            },
+            {
+              "floor": "8250",
+              "rate": "0.0351"
+            },
+            {
+              "floor": "49530",
+              "rate": "0.0455"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "NV": {
+      "name": "Nevada",
+      "incomeTax": {
+        "type": "none"
+      },
+      "contributions": []
+    },
+    "NH": {
+      "name": "New Hampshire",
+      "incomeTax": {
+        "type": "none"
+      },
+      "contributions": []
+    },
+    "NJ": {
+      "name": "New Jersey",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "1000",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.014"
+            },
+            {
+              "floor": "20000",
+              "rate": "0.0175"
+            },
+            {
+              "floor": "35000",
+              "rate": "0.035"
+            },
+            {
+              "floor": "40000",
+              "rate": "0.0553"
+            },
+            {
+              "floor": "75000",
+              "rate": "0.0637"
+            },
+            {
+              "floor": "500000",
+              "rate": "0.0897"
+            },
+            {
+              "floor": "1000000",
+              "rate": "0.1075"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "2000",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.014"
+            },
+            {
+              "floor": "20000",
+              "rate": "0.0175"
+            },
+            {
+              "floor": "50000",
+              "rate": "0.0245"
+            },
+            {
+              "floor": "70000",
+              "rate": "0.035"
+            },
+            {
+              "floor": "80000",
+              "rate": "0.0553"
+            },
+            {
+              "floor": "150000",
+              "rate": "0.0637"
+            },
+            {
+              "floor": "500000",
+              "rate": "0.0897"
+            },
+            {
+              "floor": "1000000",
+              "rate": "0.1075"
+            }
+          ]
+        }
+      },
+      "contributions": [
+        {
+          "name": "NJ SDI",
+          "rate": "0.0019",
+          "annualWageBase": "171100"
+        },
+        {
+          "name": "NJ FLI",
+          "rate": "0.0023",
+          "annualWageBase": "171100"
+        }
+      ]
+    },
+    "NM": {
+      "name": "New Mexico",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "16100",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.015"
+            },
+            {
+              "floor": "5500",
+              "rate": "0.032"
+            },
+            {
+              "floor": "16500",
+              "rate": "0.043"
+            },
+            {
+              "floor": "33500",
+              "rate": "0.047"
+            },
+            {
+              "floor": "66500",
+              "rate": "0.049"
+            },
+            {
+              "floor": "210000",
+              "rate": "0.059"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "32200",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.015"
+            },
+            {
+              "floor": "8000",
+              "rate": "0.032"
+            },
+            {
+              "floor": "25000",
+              "rate": "0.043"
+            },
+            {
+              "floor": "50000",
+              "rate": "0.047"
+            },
+            {
+              "floor": "100000",
+              "rate": "0.049"
+            },
+            {
+              "floor": "315000",
+              "rate": "0.059"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "NY": {
+      "name": "New York",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "8000",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.039"
+            },
+            {
+              "floor": "8500",
+              "rate": "0.044"
+            },
+            {
+              "floor": "11700",
+              "rate": "0.0515"
+            },
+            {
+              "floor": "13900",
+              "rate": "0.054"
+            },
+            {
+              "floor": "80650",
+              "rate": "0.059"
+            },
+            {
+              "floor": "215400",
+              "rate": "0.0685"
+            },
+            {
+              "floor": "1077550",
+              "rate": "0.0965"
+            },
+            {
+              "floor": "5000000",
+              "rate": "0.103"
+            },
+            {
+              "floor": "25000000",
+              "rate": "0.109"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "16050",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.039"
+            },
+            {
+              "floor": "17150",
+              "rate": "0.044"
+            },
+            {
+              "floor": "23600",
+              "rate": "0.0515"
+            },
+            {
+              "floor": "27900",
+              "rate": "0.054"
+            },
+            {
+              "floor": "161550",
+              "rate": "0.059"
+            },
+            {
+              "floor": "323200",
+              "rate": "0.0685"
+            },
+            {
+              "floor": "2155350",
+              "rate": "0.0965"
+            },
+            {
+              "floor": "5000000",
+              "rate": "0.103"
+            },
+            {
+              "floor": "25000000",
+              "rate": "0.109"
+            }
+          ]
+        }
+      },
+      "contributions": [
+        {
+          "name": "NY DBL",
+          "rate": "0.005",
+          "weeklyMax": "0.60"
+        },
+        {
+          "name": "NY PFL",
+          "rate": "0.00432",
+          "annualMax": "411.91"
+        }
+      ]
+    },
+    "NC": {
+      "name": "North Carolina",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "12750",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0399"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "25500",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0399"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "ND": {
+      "name": "North Dakota",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "16100",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0"
+            },
+            {
+              "floor": "48475",
+              "rate": "0.0195"
+            },
+            {
+              "floor": "244825",
+              "rate": "0.025"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "32200",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0"
+            },
+            {
+              "floor": "80975",
+              "rate": "0.0195"
+            },
+            {
+              "floor": "298075",
+              "rate": "0.025"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "OH": {
+      "name": "Ohio",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "2400",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0",
+              "base": "0"
+            },
+            {
+              "floor": "26050",
+              "rate": "0.0275",
+              "base": "332"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "4800",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0",
+              "base": "0"
+            },
+            {
+              "floor": "26050",
+              "rate": "0.0275",
+              "base": "332"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "OK": {
+      "name": "Oklahoma",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "7350",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0"
+            },
+            {
+              "floor": "3750",
+              "rate": "0.025"
+            },
+            {
+              "floor": "4900",
+              "rate": "0.035"
+            },
+            {
+              "floor": "7200",
+              "rate": "0.045"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "14700",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0"
+            },
+            {
+              "floor": "7500",
+              "rate": "0.025"
+            },
+            {
+              "floor": "9800",
+              "rate": "0.035"
+            },
+            {
+              "floor": "14400",
+              "rate": "0.045"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "OR": {
+      "name": "Oregon",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "2910",
+          "credit": "256",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0475"
+            },
+            {
+              "floor": "4550",
+              "rate": "0.0675"
+            },
+            {
+              "floor": "11400",
+              "rate": "0.0875"
+            },
+            {
+              "floor": "125000",
+              "rate": "0.099"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "5820",
+          "credit": "512",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0475"
+            },
+            {
+              "floor": "9100",
+              "rate": "0.0675"
+            },
+            {
+              "floor": "22800",
+              "rate": "0.0875"
+            },
+            {
+              "floor": "250000",
+              "rate": "0.099"
+            }
+          ]
+        }
+      },
+      "contributions": [
+        {
+          "name": "OR Paid Leave",
+          "rate": "0.006",
+          "annualWageBase": "184500"
+        },
+        {
+          "name": "OR Transit Tax",
+          "rate": "0.001"
+        }
+      ]
+    },
+    "PA": {
+      "name": "Pennsylvania",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "0",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0307"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "0",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0307"
+            }
+          ]
+        }
+      },
+      "contributions": [
+        {
+          "name": "PA SUI",
+          "rate": "0.0007"
+        }
+      ]
+    },
+    "RI": {
+      "name": "Rhode Island",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "16450",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0375"
+            },
+            {
+              "floor": "82050",
+              "rate": "0.0475"
+            },
+            {
+              "floor": "186450",
+              "rate": "0.0599"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "32900",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0375"
+            },
+            {
+              "floor": "82050",
+              "rate": "0.0475"
+            },
+            {
+              "floor": "186450",
+              "rate": "0.0599"
+            }
+          ]
+        }
+      },
+      "contributions": [
+        {
+          "name": "RI TDI",
+          "rate": "0.011",
+          "annualWageBase": "100000"
+        }
+      ]
+    },
+    "SC": {
+      "name": "South Carolina",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "8350",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0"
+            },
+            {
+              "floor": "3640",
+              "rate": "0.03"
+            },
+            {
+              "floor": "18230",
+              "rate": "0.06"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "16700",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0"
+            },
+            {
+              "floor": "3640",
+              "rate": "0.03"
+            },
+            {
+              "floor": "18230",
+              "rate": "0.06"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "SD": {
+      "name": "South Dakota",
+      "incomeTax": {
+        "type": "none"
+      },
+      "contributions": []
+    },
+    "TN": {
+      "name": "Tennessee",
+      "incomeTax": {
+        "type": "none"
+      },
+      "contributions": []
+    },
+    "TX": {
+      "name": "Texas",
+      "incomeTax": {
+        "type": "none"
+      },
+      "contributions": []
+    },
+    "UT": {
+      "name": "Utah",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "0",
+          "credit": "485",
+          "creditPhaseOutThreshold": "9348",
+          "creditPhaseOutRate": "0.013",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0445"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "0",
+          "credit": "970",
+          "creditPhaseOutThreshold": "18696",
+          "creditPhaseOutRate": "0.013",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0445"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "VT": {
+      "name": "Vermont",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "12950",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0335"
+            },
+            {
+              "floor": "49400",
+              "rate": "0.066"
+            },
+            {
+              "floor": "119700",
+              "rate": "0.076"
+            },
+            {
+              "floor": "249700",
+              "rate": "0.0875"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "25900",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0335"
+            },
+            {
+              "floor": "82500",
+              "rate": "0.066"
+            },
+            {
+              "floor": "199450",
+              "rate": "0.076"
+            },
+            {
+              "floor": "304000",
+              "rate": "0.0875"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "VA": {
+      "name": "Virginia",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "9680",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.02"
+            },
+            {
+              "floor": "3000",
+              "rate": "0.03"
+            },
+            {
+              "floor": "5000",
+              "rate": "0.05"
+            },
+            {
+              "floor": "17000",
+              "rate": "0.0575"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "19360",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.02"
+            },
+            {
+              "floor": "3000",
+              "rate": "0.03"
+            },
+            {
+              "floor": "5000",
+              "rate": "0.05"
+            },
+            {
+              "floor": "17000",
+              "rate": "0.0575"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "WA": {
+      "name": "Washington",
+      "incomeTax": {
+        "type": "none"
+      },
+      "contributions": [
+        {
+          "name": "WA PFML",
+          "rate": "0.00807159",
+          "annualWageBase": "184500"
+        },
+        {
+          "name": "WA Cares",
+          "rate": "0.0058"
+        }
+      ]
+    },
+    "WV": {
+      "name": "West Virginia",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "2000",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0222"
+            },
+            {
+              "floor": "10000",
+              "rate": "0.0296"
+            },
+            {
+              "floor": "25000",
+              "rate": "0.0333"
+            },
+            {
+              "floor": "40000",
+              "rate": "0.0444"
+            },
+            {
+              "floor": "60000",
+              "rate": "0.0482"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "4000",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.0222"
+            },
+            {
+              "floor": "10000",
+              "rate": "0.0296"
+            },
+            {
+              "floor": "25000",
+              "rate": "0.0333"
+            },
+            {
+              "floor": "40000",
+              "rate": "0.0444"
+            },
+            {
+              "floor": "60000",
+              "rate": "0.0482"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "WI": {
+      "name": "Wisconsin",
+      "incomeTax": {
+        "type": "graduated",
+        "single": {
+          "deduction": "14660",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.035"
+            },
+            {
+              "floor": "15110",
+              "rate": "0.044"
+            },
+            {
+              "floor": "51950",
+              "rate": "0.053"
+            },
+            {
+              "floor": "332720",
+              "rate": "0.0765"
+            }
+          ]
+        },
+        "married": {
+          "deduction": "27240",
+          "credit": "0",
+          "brackets": [
+            {
+              "floor": "0",
+              "rate": "0.035"
+            },
+            {
+              "floor": "20150",
+              "rate": "0.044"
+            },
+            {
+              "floor": "69260",
+              "rate": "0.053"
+            },
+            {
+              "floor": "443630",
+              "rate": "0.0765"
+            }
+          ]
+        }
+      },
+      "contributions": []
+    },
+    "WY": {
+      "name": "Wyoming",
+      "incomeTax": {
+        "type": "none"
+      },
+      "contributions": []
+    }
+  }
+}
